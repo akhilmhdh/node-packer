@@ -9,7 +9,7 @@ jobs:
         settings:
           - os: macos-12
             target: x86_64-apple-darwin
-    runs-on: ${{ matrix.os }}
+    runs-on: ${{ matrix.settings.os }}
     steps:
       - uses: actions/checkout@v2
         with:
