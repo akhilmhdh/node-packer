@@ -16,7 +16,7 @@ jobs:
           path: src
       - name: "[Enclose.IO] Install dependencies"
         run: |
-          brew upgrade
+          # brew upgrade
           brew install squashfs
       - name: "[Enclose.IO] Set up rubyc"
         run: |
